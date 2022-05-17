@@ -1,0 +1,51 @@
+@import url(/test4/menu.css);
+
+
+header {
+  background-image: url(/test4/img/header.png);
+  height: 195px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+header div{
+    padding: 10px;
+    float: right;
+}
+
+header span {
+    font-size:50px;
+    font-weight: bold;
+    line-height:195px;
+}
+nav {
+  float: left;
+  width: 15%;
+  height: 600px;
+  background-color: #349dbb;
+}
+
+article {
+  float: right;
+  width: 85%;
+  background-color: #ffffff;
+  height: 600px;
+}
+article img {
+    width: 100%; 
+    height:600px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+    background-image: url(/test4/img/footer2.jpg);
+  padding: 10px;
+  height: 130px;
+  text-align: center;
+  color: white;
+}
